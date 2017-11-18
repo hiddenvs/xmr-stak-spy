@@ -41,7 +41,7 @@ pip install bs4 psutil requests
 
 ##### Before running, set variables in xmrspy.py file.
 
-If using in Windows, set a scheduled task to execute this xmrspy.py script every 5 minute (or more).
+In Windows, set a scheduled task to execute this xmrspy.py script every 5 minute (or more).
 
 Open Task Scheduler, create a new task.  In General tab select 'run whether user is logged on or not',  make sure run with highest priveleges is set (necessary for restarting via Devcon and killing xmr-stak-amd).  Under Triggers tab, create a new trigger, set it to run daily, repeat task every 5 minutes.  In Actions tab, create new action to start a program, program/script is "python.exe", add arguments will be 'C:\location\of\xmrspy.py", start in should be the location that you installed Python3.6 to (for me this is C:\Python36).
 
