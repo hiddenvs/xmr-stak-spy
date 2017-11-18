@@ -18,9 +18,13 @@ When the script is run it checks localhost:port/h on the xmr-stak-amd webpage, l
 It compares this number to the MINIMUM_HASHRATE variable (set below).
 
 If the current hashrate is lower than the MINIMUM_HASHRATE, the following happens:
+
 xmr-stak-amd is killed.
+
 GPUs are disabled / enabled via Devcon.
+
 OverdriveNTool profile settings are applied.
+
 xmr-stak-amd is started.
 
 If the current hashrate is greater than the MINIMUM_HASHRATE, nothing happens.
