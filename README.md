@@ -5,7 +5,9 @@ Requirements::
 
 Python 3.6
 xmr-stak-amd (http needs to be configured)
+
 OverdriveNTool (profile for GPU needs to be configured)
+
 Devcon tool
 
 Synopsis::
