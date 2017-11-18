@@ -30,4 +30,8 @@ xmr-stak-amd is started.
 
 If the current hashrate is greater than the MINIMUM_HASHRATE, nothing happens.
 
-# Set variables in xmrspy.py file.
+
+Before running, set variables in xmrspy.py file.
+
+Donate XMR:
+4AoUQNiUoE6EkPoJGDPR5bi8EKv9diZFq5hJi86oKJxxYfxayDzSh8PhwikProAvR8PmF2wxzVArKGL3Xu9GKCdU8xQvACv
